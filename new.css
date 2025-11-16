@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+      text-align: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background:  #8082e5;
+}
+
+.container{
+    max-width: 400px;
+    margin: 50px auto;
+border-radius: 20px;
+border: 2px solid rgb(12, 43, 102);
+font-size: 10vmin;
+  background: linear-gradient(135deg, #2d2e8b, #f0f0f0);
+
+}
+
+#city-name {
+font-size: 0.5em;
+
+}
+h1{
+    font-size: 0.79em;
+    padding:20px 10px;
+margin:20px 10px;
+}
+
+p,
+#srch-btn,
+    #weather-description{
+ font-size: 0.35em;
+    padding:10px 5px;
+margin:10px 5px;
+}
+#weather-icon,
+     #weather-description,
+     #temperature{
+ font-size: 0.7em;
+}
+#humidity,
+#wind-speed{
+ display:flex;
+ padding:10px 5px;
+margin:10px 50px;
+font-size: 0.5em ;
+}
+
+.weather_detl{
+  display:flex;
+  justify-content: center;
+}
+input{
+  font-size: 0.3em;
+    padding:10px 5px;
+margin:10px 5px;
+}
+.hidden{
+    display:none;
+}
+
+#error-message{
+font-size: 0.5em;
+padding: 10px 5px;
+margin: 10px 5px;
+color: red;
+}
