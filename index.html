@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather forcast</title>
+     
+    <link rel="stylesheet" href="new.css"> 
+<style>
+
+
+</style>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css">
+    <div class="container">
+        <h1>Weather App</h1>
+        <form action="">
+            
+        <input type="text" placeholder="Enter City Name" id="city_name">
+        <button id="srch-btn">search</button>
+        </form> 
+        <div class="weatherinfo" id="weather-info">
+            <h2 id="city-name">-</h2>    
+        <i id="weather-icon">
+        <p id="weather-description">-</p>
+        <div>
+        <p id="temperature">-</p>
+        
+        <div class="weather_detl">
+            <div class="humidity">
+                <i class="fa-sharp fa-solid fa-droplet"></i>
+              <span id="humidity">15%</span>
+            </div>
+            <div class="speed">
+                <i class="fa-solid fa-wind"></i>
+                
+                <span id="wind-speed">15Km/H</span>
+            </div>
+            </div>
+                </div>
+        </div>
+         <p id="error-message" class="hidden">City not found. Please try again.</p>
+         </div>
+         </div>
+          <script src="new.js"></script>
+         <script src="https://kit.fontawesome.com/fffda573bb.js" crossorigin="anonymous"></script>
+</body>
+
+</html> 
